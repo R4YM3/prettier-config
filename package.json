@@ -1,25 +1,25 @@
 {
-  "name": "prettier-config-r4ym3",
-  "version": "0.0.2",
-  "description": "Personal prettier config",
-  "main": ".prettierrc.json",
-  "license": "MIT",
-  "keywords": [
-    "prettier",
-    "prettier-config"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/R4YM3/prettier-config-r4ym3"
-  },
-  "scripts": {
-    "format": "prettier --write .",
-    "prepare": "husky install",
-    "hook:precommit": "npm run format"
-  },
-  "homepage": "https://github.com/R4YM3/prettier-config-r4ym3",
-  "devDependencies": {
-    "husky": "^8.0.3",
-    "prettier": "^3.0.0"
-  }
+	"name": "prettier-config-r4ym3",
+	"version": "0.0.2",
+	"description": "Personal prettier config",
+	"main": ".prettierrc.json",
+	"license": "MIT",
+	"keywords": [
+		"prettier",
+		"prettier-config"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/R4YM3/prettier-config-r4ym3"
+	},
+	"scripts": {
+		"format": "prettier --write . && git a .",
+		"prepare": "husky install",
+		"hook:precommit": "npm run format"
+	},
+	"homepage": "https://github.com/R4YM3/prettier-config-r4ym3",
+	"devDependencies": {
+		"husky": "^8.0.3",
+		"prettier": "^3.0.0"
+	}
 }
