@@ -1,6 +1,6 @@
 {
 	"name": "prettier-config-r4ym3",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Personal prettier config",
 	"main": ".prettierrc.json",
 	"license": "MIT",
